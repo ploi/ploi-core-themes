@@ -1,0 +1,78 @@
+:root {
+    --font-body: 'Inter', sans-serif;
+
+    --color-white: #fff;
+    --color-gray-1: #f7f7f7;
+    --color-gray-2: #e6e6e6;
+    --color-gray-3: #cacaca;
+    --color-gray-4: #888;
+    --color-gray-5: #666;
+    --color-gray-6: #2f2f2f;
+    --color-gray-7: #1b1a1a;
+    --color-gray-8: #101010;
+
+    --color-primary: #149929;
+    --color-success: #17b35d;
+    --color-warning: #f5a623;
+    --color-danger: #c90c4c;
+
+    --color-text-high-emphasis: var(--color-gray-8);
+    --color-text-medium-emphasis: var(--color-gray-5);
+    --color-text-low-emphasis: var(--color-gray-3);
+
+    --color-text-on-primary: var(--color-white);
+    --color-text-on-success: var(--color-gray-8);
+    --color-text-on-warning: var(--color-white);
+    --color-text-on-danger: var(--color-white);
+
+    --color-border-high-emphasis: var(--color-gray-4);
+    --color-border-medium-emphasis: var(--color-gray-3);
+    --color-border-low-emphasis: var(--color-gray-2);
+
+    --color-backdrop: rgba(0, 0, 0, 0.5);
+    --color-overlay: rgba(255, 255, 255, 0.8);
+    --color-surface-1: var(--color-white);
+    --color-surface-2: var(--color-gray-1);
+    --color-surface-3: var(--color-white);
+
+    --border-radius: 0.5rem;
+    --border-radius-avatar: 4rem;
+    --border-radius-circle: 100%;
+
+    --top-bar-container: 64rem;
+    --top-bar-logo-height: 3.5rem;
+    --top-bar-background-color: #C4E6CA;
+    --top-bar-text-color: #094512;
+
+    --tab-bar-background-color: #E8F5EA;
+    --tab-bar-item-active-background-color: #5BB869;
+    --tab-bar-item-text-color: var(--color-text-medium-emphasis);
+    --tab-bar-item-active-text-color: #094512;
+
+    --breadcrumbs-text-color: #094512;
+}
+
+.theme--dark {
+    --color-primary: #63a6f5;
+    --color-success: #50e3c2;
+    --color-warning: #f5a623;
+    --color-danger: #d4667c;
+
+    --color-text-high-emphasis: var(--color-white);
+    --color-text-medium-emphasis: var(--color-gray-3);
+    --color-text-low-emphasis: var(--color-gray-5);
+
+    --color-text-on-primary: var(--color-gray-7);
+    --color-text-on-success: var(--color-gray-7);
+    --color-text-on-warning: var(--color-gray-7);
+    --color-text-on-danger: var(--color-gray-7);
+
+    --color-border-high-emphasis: var(--color-gray-4);
+    --color-border-medium-emphasis: var(--color-gray-5);
+    --color-border-low-emphasis: var(--color-gray-6);
+
+    --color-surface-1: var(--color-gray-7);
+    --color-surface-2: var(--color-gray-6);
+    --color-surface-3: var(--color-gray-6);
+    --color-overlay: rgba(0, 0, 0, 0.8);
+}
